@@ -1,113 +1,25 @@
 <!DOCTYPE html>
-<html lang="sv-se">
+<html lang="en">
+
 <head>
-    <title>CeriQ AB</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/ceriq.min.css" rel="stylesheet" />
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Din leverantör för allt från systemutveckling till beslutsstöd och drift. Med lång och bred erfarenhet löser vi det mesta, och resten hjälper vi dig köpa in." />
+    <meta charset="utf-8" />
+    <title>Automated Realms</title>
+    <base href="/" />
+    <link rel="shortcut icon" href="_content/AutomatedRealmsSite.BlazorUi/favicon.ico" />
+    <link rel="stylesheet" href="_content/AutomatedRealmsSite.BlazorUi/css/app.css" />
+    <link rel="stylesheet" href="AutomatedRealmsSite.Client.styles.css" />
 </head>
+
 <body>
-    <header id="frontHeader">
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="/media/summer.mp4" type="video/mp4">
-        </video>
-        <div class="videoOverlay">&nbsp;</div>
-        <div class="container">
-            <h1 class="row">
-                <img class="col-md-6 col-sm-12" src="/img/Logo.png" id="logo" alt="CeriQ AB" title="CeriQ AB" />
-            </h1>
-        </div>
-    </header>
+    <div id="app">Loading...</div>
 
-    <article class="container">
-        <div class="row topBoxRow justify-content-center align-items-start frontBox">
-            <a href="/development" class="col-lg-5">
-                <div class="infoBox img" style="background-image: url('/img/dev.jpg');">
-                </div>
-            </a>
-            <a href="/development" class="col-lg-5 offset-lg-1 textBoxRight">
-            <div>
-                <h2 class="display-4 lead">System&shy;utveckling</h2>
-                <p>Oavsett om det handlar om interna verktyg eller något som era kunder ska använda så tar vi fram specialbyggda lösningar för just era behov.</p>
-                <p>Vi jobbar både med helhetsansvar för projektet eller som en del i ett större team.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="row mt-2 justify-content-center align-items-start frontBox">
-            <a href="/cloud" class="col-lg-5 textBoxLeft">
-            <div>
-                <h2 class="display-4 lead">Moln- &amp; IT-drift</h2>
-                <p>Oavsett hur er IT-infrastruktur ser ut idag kan vi hjälpa er. Inte bara med att förvalta den, utan också med att utveckla den.</p>
-                <p>Vi hjälper er flytta eller bygga upp er infrastruktur och hosting i molnet, med alla fördelarna för skalbarhet och säkerhet det innebär.</p>
-            </div>
-            </a>
-            <a href="/cloud" class="col-lg-5">
-            <div class="infoBox img" style="background-image: url('/img/cloud.jpg');">
-            </div>
-            </a>
-        </div>
-
-        <div class="row mt-2 justify-content-center align-items-start frontBox">
-            <a href="/decisionsupport" class="col-lg-5">
-            <div class="infoBox img" style="background-image: url('/img/tunnel.jpg');">
-            </div>
-            </a>
-            <a href="/decisionsupport" class="col-lg-5 offset-lg-1 textBoxRight">
-            <div>
-                <h2 class="display-4 lead">Besluts&shy;stöd</h2>
-                <p>Vi har erfarenhet av allt från att arbeta med inköpsstöd vid enstaka affärer, då vi utvärderar offerter och hjälper er välja rätt lösning för era behov, till att arbeta med ett större ansvar för hela er IT-plan i rollen som CTO.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="row mt-2 justify-content-center align-items-start frontBox">
-            <div class="col-lg-5 textBoxLeft">
-                <h2 class="display-4 lead">E-handel</h2>
-                <p>Med vår egenbyggda plattform CButik får ni fördelarna med ett anpassningsbart system till priset av ett färdigbyggt paket. Genom att byta ut enstaka komponenter för att uppfylla era behov innebär det en lösning där ni kan arbeta som ni vill, inte som ert system kräver.</p>
-            </div>
-            <div class="col-lg-5 offset-lg-1 infoBox d-none d-lg-block img" style="background-image: url('/img/store.jpg');">
-            </div>
-        </div>
-        <footer id="contact" class="mt-2">
-    <div class="row">
-        <div class="col-xs-12 col-md-8">
-            <h2>Kontakta oss</h2>
-
-            <div class="row" id="contactMethods">
-                <div class="col-lg-6">
-                    <img src="/img/house.png" alt="Kontakta oss" class="contactImage">
-                    <div class="col-sm-11 col-lg-9">
-                        036 - 33 00 481<br />
-                        <a href="/cdn-cgi/l/email-protection#0d666263796c66794d6e687f647c237e68"><span class="__cf_email__" data-cfemail="85eeeaebf1e4eef1c5e6e0f7ecf4abf6e0">[email&#160;protected]</span></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/img/letter.png" alt="Besök oss" class="contactImage">
-                    <div class="col-sm-11 col-lg-9">
-                        Huskvarnavägen 80<br />
-                        554 54 Jönköping
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 text-xs-start text-md-end">
-            <h2>Några kundcase</h2>
-            <a href="/references">Under åren har vi arbetat med allt från stora företag inom kärnkraft och bank, till lokala bolag inom tillverkning och industri. Läs gärna lite mer om några tidigare uppdrag vi utfört.</a>
-        </div>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
     </div>
-</footer>;
-    </article>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-D1P1C7CGDE"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-D1P1C7CGDE');
-    </script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/AutomatedRealmsSite.BlazorUi/js/utilities.js"></script>
 </body>
+
 </html>
