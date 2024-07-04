@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<base href="/" />
+
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/plugins/highlightjs/styles/github-dark.min.css" />
+<link rel="icon" type="image/png" href="favicon.ico" />
+<title>Eric Johansson</title>
+</head>
+<body>
+<div id="fullContainer">
+<header>
+        <h1 id="head"><a href="/">Eric Johansson</a></h1>
+</header>
+
+
+
+<h1 id="title">Post 2 Title Pub 240601 Umbraco</h1>
+
+<article id="blogContent">
+    <p>2024-06-01</p>
+    <p>Hello I am content, who are you?</p>
+<p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus odio ante, in tempor urna imperdiet at. Ut faucibus facilisis neque vitae laoreet. Donec sodales fringilla ligula, vel pulvinar odio posuere sit amet. Morbi vehicula fringilla eros, sed malesuada mi aliquet vel. Sed nec felis sit amet lorem eleifend auctor. Donec tincidunt magna id sollicitudin blandit. Etiam elementum faucibus pellentesque. Morbi tempor, orci vitae porta ullamcorper, ante metus placerat odio, vel elementum lorem nisi sit amet orci. Nam at tincidunt lorem, in eleifend nibh. Fusce erat elit, porttitor vel molestie vitae, lobortis et ligula. Nam pellentesque tortor ut posuere pretium.</p>
+<p>Nam ut sagittis orci. Morbi lacinia nec quam vel dapibus. Fusce lobortis orci vitae viverra scelerisque. Phasellus id lectus nec leo tincidunt lacinia eget id purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla tincidunt velit id scelerisque tincidunt. Nulla placerat elit consequat lorem pulvinar, at tempus risus molestie. Ut pharetra purus non dignissim luctus.</p>
+<p>Donec sit amet quam placerat, varius risus ultrices, lacinia lacus. Mauris quis quam dolor. Etiam eu auctor dolor. Nunc interdum eros id iaculis iaculis. Ut sit amet quam erat. Phasellus luctus sem a tellus cursus rhoncus. Ut sit amet dui ut arcu luctus sollicitudin. Nam rutrum justo eget urna viverra mollis. Sed at libero eget libero rutrum mattis. Duis nec posuere dui. Aenean vel augue in augue varius rhoncus.</p>
+<p>Nunc nec molestie ipsum, vitae placerat lectus. Suspendisse eget rhoncus massa. Nullam volutpat lorem quis tortor rutrum maximus. In libero est, aliquam in sodales at, dapibus sit amet ante. Maecenas eu accumsan nibh, sed bibendum massa. Praesent ut vehicula mi. Duis tortor mi, volutpat malesuada feugiat nec, auctor at elit. Ut id quam sed enim rutrum finibus sit amet ut elit. Mauris sit amet dolor tincidunt, aliquet ex interdum, dignissim sapien. Mauris at mattis nulla. Nullam laoreet sit amet orci et commodo. Vivamus eu leo imperdiet, luctus mauris dictum, fringilla metus. Maecenas lorem quam, ullamcorper nec elementum sed, scelerisque a nisl. Duis urna magna, elementum nec tortor vitae, iaculis sodales quam. Donec vehicula maximus dolor, nec efficitur metus mattis in.</p>
+<p>Donec bibendum lectus quam, a dapibus nisi luctus in. Morbi velit nisi, elementum eu est quis, aliquam accumsan justo. Proin ultrices auctor accumsan. Praesent faucibus nec purus et blandit. Aliquam vulputate orci sed diam vestibulum tempus. Proin ut aliquam sapien. Ut semper eros a lorem sollicitudin suscipit. Ut efficitur commodo massa, in posuere massa sagittis id. Praesent hendrerit turpis quis est tempus, non bibendum leo tempor. Aenean ultricies porta nulla, aliquam interdum ipsum ornare a.</p>
+    Umbraco site, hosted on a local IIS/docker container
+    Scheduled task
+    Run WGET <-- This crawls the entire website, and everything that's public
+                 ^^ Outputs the entire website content into a folder
+                 Different folder, synced to github
+                 Copy WGET result into github synced folder
+                 commit, push
+                 ^^
+                 If this contains something new /an actual commit, github workflow triggers, deploying to SWA
+</article>
+
+<div id="blogNavigation">
+        <a href="/blog/2023/post1-5/">&lt;-- Post 1 Title pub 230504</a>
+        <a href="/blog/2024/post1/">Post 1 Title Pub 240630 --&gt;</a>
+</div>
+
+
+</div>
+<script src="/plugins/highlightjs/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

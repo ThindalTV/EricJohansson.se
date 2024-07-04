@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<base href="/" />
+
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/plugins/highlightjs/styles/github-dark.min.css" />
+<link rel="icon" type="image/png" href="favicon.ico" />
+<title>Eric Johansson</title>
+</head>
+<body>
+<div id="fullContainer">
+<header>
+        <h1 id="head"><a href="/">Eric Johansson</a></h1>
+</header>
+
+
+
+<h1 id="title">Post 1 Title pub 230504 Umbraco</h1>
+
+<article id="blogContent">
+    <p>2023-05-04</p>
+    
+    Umbraco site, hosted on a local IIS/docker container
+    Scheduled task
+    Run WGET <-- This crawls the entire website, and everything that's public
+                 ^^ Outputs the entire website content into a folder
+                 Different folder, synced to github
+                 Copy WGET result into github synced folder
+                 commit, push
+                 ^^
+                 If this contains something new /an actual commit, github workflow triggers, deploying to SWA
+</article>
+
+<div id="blogNavigation">
+        <a href="/blog/2024/post1-1/">Post 2 Title Pub 240601 --&gt;</a>
+</div>
+
+
+</div>
+<script src="/plugins/highlightjs/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
