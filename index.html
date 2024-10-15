@@ -1,166 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<base href="/" />
-
-<link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/plugins/highlightjs/styles/github-dark.min.css" />
-<link rel="icon" type="image/png" href="favicon.ico" />
-<title>Eric Johansson</title>
-</head>
-<body>
-<div id="fullContainer">
-<header>
-                <h1 id="head">Eric Johansson</h1>
-</header>
-<header id="showcase">
-    <section class="box presentation">
-        <ul id="titles">
-            <li>Developer</li>
-            <li>Consultant</li>
-            <li>Educator</li>
-        </ul>
-        <img class="profileImage" src="/layout/img/Profile.png" alt="Eric Johansson" title="Eric Johansson" />
-        <p>
-            Back in 2003, I discovered .NET. Coming from a background of mostly using C++ for client- and PERL/ASP Classic for web-development, finding .NET was like seeing sunshine for the first time.
-            Since then, I've been working with .NET in various forms, from ASP.NET WebForms to ASP.NET MVC, from Windows Forms to WPF, from WCF to gRPC, from SQL Server to MongoDB.
-            /Layout/Images/profile.png
-        </p>
-        <p>
-            Today, my day job is running a consulting firm specializing in .NET development and Azure architecture.<br />
-            At other times, I run an open, inclusive and educational twitch stream helping people experience and learn .NET.
-        </p>
-        <ul id="socials">
-            <li><a target="_blank" href="https://www.linkedin.com/in/eric-r-johansson/"><img src="/layout/img/logos/LinkedIn.svg" alt="LinkedIn" /></a></li>
-            <li><a target="_blank" href="https://www.github.com/thindaltv"><img src="/layout/img/logos/Github-Octocat.svg" alt="Github" /></a></li>
-            <li><a target="_blank" href="https://www.twitch.tv/thindal"><img src="/layout/img/logos/Twitch.svg" alt="Twitch" /></a></li>
-            <li><a target="_blank" href="https://www.twitter.com/ericjohansson/"><img src="/layout/img/logos/Twitter-X.svg" alt="X/Twitter" /></a></li>
-        </ul>
-    </section>
-    <section class="image">
-        <ul id="awards">
-            <li><a target="_blank" href="https://www.telerik.com/"><img src="/layout/img/logos/Telerik_Champion.svg" alt="Telerik Champion" title="Telerik Champion" /></a></li>
-        </ul>
-    </section>
-</header>
-
-
-
-
-
-<footer>
-<aside id="contributions">
-<h2>Open Source</h2>
-<div class="box">
-<h3>Blazor Blocks</h3>
-<p>
-Blazor Blocks is a WYSIWYG block editor for Blazor.
-</p>
-<p>
-There are quite a few "simple" WYSIWYG editors, but I was missing a way of laying out and creating fully responsive pages,
-not just blocks of text and images.
-</p>
-<p>
-Blazor Blocks introduces the concept of a block, which is a self contained type of content rendered,
-which can be placed in columns and rows of your own design. It's a bit like a page builder, but for Blazor.
-Some examples of blocks are normal WYSIWYG editors, images, titles, code, quotes, video links, embeddable content and more.
-</p>
-<p>
-The entire project is built with 0 dependencies, which means that while it comes with a default set of row and column
-definitions, it is easy to substitute them for your own.
-</p>
-<p>
-While the project isn't on Nuget quite yet, you can find <a href="https://github.com/thindaltv/blazorblocks">the source code</a> at GitHub.
-The project is actively taking Pull Requests and contributions.
-</p>
-</div>
-<div class="box">
-<h3>Deepgram .NET SDK</h3>
-<p>
-Deepgram is a speech-to-text service that is easy to use and has a great free tier.
-What they didn't have was a great .NET API; what they had was basically a direct port of their NodeJS API,
-which was not very .NET friendly and didn't follow common design patterns in .NET.
-</p>
-<p>
-Me and a few others have, with Deepgrams blessing, worked on creating a new SDK for using Deepgram from .NET.
-</p>
-<p>You can find <a href="https://github.com/deepgram/deepgram-dotnet-sdk">the official repository</a> at GitHub.</p>
-</div>
-<h2>Extensions</h2>
-<div class="box">
-<h3>Don't Doxx Yourself</h3>
-<p>
-It's easy to mess up when streaming, presenting or showing code.
-Lower the risk by hiding your configuration values until you actually decide to show them.
-</p>
-<p>
-This extension hides all values in xml and json files.
-You can click a button to toggle the boxes so you can edit the values,
-but if you close & reopen the file the values are hidden again.
-</p>
-<p>The schema is always visible even when the values are hidden.</p>
-<img src="/layout/img/contributions/noDoxx.png" alt="Example showing what Don't Doxx Yourself looks like" title="Example showing what Don't Doxx Yourself looks like" />
-<p>
-<a href="https://marketplace.visualstudio.com/items?itemName=Thindal.NoDoxx">Get NoDoxx at the Visual Studio Marketplace</a>
-or <a href="https://github.com/thindaltv/nodoxx">contribute to the project</a> on GitHub.
-</p>
-</div>
-<h2>Conference Sessions and Talks</h2>
-<div class="box">
-<h3>The road taken; from Framework to .NETx</h3>
-<p>
-Do you have a .NET Framework project out there that's really looking to be updated to dotnet?
-Have a look at the path we chose when upgrading a production web shop running on WebForms with
-every imaginable anti pattern, into a modern framework with a MVC public site and a Blazor administration interface.
-On this trip we will go through subjects like analysis, planning, architecture, some best practices and what will you
-need to do to move it from on premise or Infrastructure As A Service to a fully managed Platform hosted solution.
-</p>
-<p>
-<a href="https://github.com/ThindalTV/RoadTaken_FrameworkToNet_Demo/blob/main/presentation/Slides.pdf">Find the slides</a>
-and the <a href="https://github.com/ThindalTV/RoadTaken_FrameworkToNet_Demo/tree/main/src">Demo application</a> on GitHub.
-</p>
-</div>
-<h2>Other projects</h2>
-<div class="box">
-<h3>Dotnet Bacon</h3>
-<p>
-Do you like bacon and/or eggs? If that feels like you, then you might like this project.
-</p>
-<p>Learn how to build a .NET tool, how to execute LUA code and how to write a source generator in the tastiest way possible. With bacon!</p>
-<p>
-To use the tool yourself, you can install it from the terminal with
-<code>dotnet tool install -g dotnet-bacon</code>
-</p>
-<p>
-Follow up with running the tool with either <code>dotnet bacon</code> or for some extra tasty,
-use <code>dotnet bacon egg</code>.
-</p>
-<p>
-If it's not obvious, this is a gag project for testing some technology, but it is published and fully working,
-and you can find the <a href="https://github.com/ThindalTV/Dotnet.Bacon">source for dotnet bacon</a> on GitHub.
-</p>
-</div>
-<div class="box">
-<h3>Swetugg</h3>
-<p>
-Swetugg is a conference for .NET developers, by .NET developers. Held twice per year, once in Stockholm
-and once in Gothenburg, it reaches hundreds of developers in the Nordics and beyond.
-</p>
-<p>
-For Swetugg, I am a part of the groups responsible for selecting speakers &amp; scheduling, the website and the afterparty.
-</p>
-<p>
-<a href="https://www.swetugg.se">Read more, book your tickets and take part</a> of two wonderful days in one (or both!) of Swedens largest cities
-filled to the brim with knowledge, facts, fun and networking. And there's food, entertainment and other silly things too!</p>
-</div>
-</aside>
-</footer>
+<html lang="en"><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
+    
+    <link rel="stylesheet" href="EricJohansson-SSR.styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Home</title></head>
 
-</div>
-<script src="/plugins/highlightjs/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-</body>
-</html>
+<body><div id="fullContainer" b-j6uqp29po2><header b-j6uqp29po2><h1 id="head" b-j6uqp29po2>Eric Johansson</h1></header>
+
+    
+    
+<header id="showcase"><section class="box presentation"><ul id="titles"><li>Developer</li>
+            <li>Consultant</li>
+            <li>Educator</li></ul>
+        <img class="profileImage" src="/img/Profile.png" alt="Eric Johansson" title="Eric Johansson">
+        
+        <p>
+            Eric has a broad experience that covers topics from ZX Basic to .NET.
+            With projects spanning from business applications to nuclear power plant systems he developed the ability
+            to adapt and evolve with the rapid changes in the tech landscape.
+            </p><p>
+            That knowledge is something that he shares freely as a content creator and public speaker.
+            Eric is passionate about making complex topics accessible to all level of learners, which you can see in his style of teaching in his livestreams,
+            tutorials and conference sessions.
+            </p><p>
+            Apart from being a techie, he's also a servant to Zelda, an adorable cat.
+        </p>
+        <ul id="socials"><li><a target="_blank" href="https://www.linkedin.com/in/eric-r-johansson/"><img src="/img/logos/LinkedIn.svg" alt="LinkedIn"></a></li>
+            <li><a target="_blank" href="https://www.github.com/thindaltv"><img src="/img/logos/Github-Octocat.svg" alt="Github"></a></li>
+            <li><a target="_blank" href="https://www.twitch.tv/thindal"><img src="/img/logos/Twitch.svg" alt="Twitch"></a></li>
+            <li><a target="_blank" href="https://www.twitter.com/ericjohansson/"><img src="/img/logos/Twitter-X.svg" alt="X/Twitter"></a></li></ul></section>
+    <section class="image"><ul id="awards"><li><a target="_blank" href="https://www.telerik.com/"><img src="/img/logos/Telerik_Champion.svg" alt="Telerik Champion" title="Telerik Champion"></a></li></ul></section></header><div class="box"><h3>Test Post</h3>
+    </div><div class="box"><h3>Test Post</h3>
+    </div><div class="box"><h3>Test Post</h3>
+    </div><div class="box"><h3>Test Post</h3>
+    </div><div class="box"><h3>Test Post</h3>
+    </div><div class="box"><h3>Test Post</h3>
+    </div>&nbsp;
+<footer><aside id="contributions"><h2>Open Source</h2>
+        <div class="box"><h3>Blazor Blocks</h3>
+            <p>
+                Blazor Blocks is a WYSIWYG block editor for Blazor.
+            </p>
+            <p>
+                There are quite a few "simple" WYSIWYG editors, but I was missing a way of laying out and creating fully responsive pages,
+                not just blocks of text and images.
+            </p>
+            <p>
+                Blazor Blocks introduces the concept of a block, which is a self contained type of content rendered,
+                which can be placed in columns and rows of your own design. It's a bit like a page builder, but for Blazor.
+                Some examples of blocks are normal WYSIWYG editors, images, titles, code, quotes, video links, embeddable content and more.
+            </p>
+            <p>
+                The entire project is built with 0 dependencies, which means that while it comes with a default set of row and column
+                definitions, it is easy to substitute them for your own.
+            </p>
+            <p>
+                While the project isn't on Nuget quite yet, you can find <a href="https://github.com/thindaltv/blazorblocks">the source code</a> at GitHub.
+                The project is actively taking Pull Requests and contributions.
+            </p></div>
+        <div class="box"><h3>Deepgram .NET SDK</h3>
+            <p>
+                Deepgram is a speech-to-text service that is easy to use and has a great free tier.
+                What they didn't have was a great .NET API; what they had was basically a direct port of their NodeJS API,
+                which was not very .NET friendly and didn't follow common design patterns in .NET.
+            </p>
+            <p>
+                Me and a few others have, with Deepgrams blessing, worked on creating a new SDK for using Deepgram from .NET.
+            </p>
+            <p>You can find <a href="https://github.com/deepgram/deepgram-dotnet-sdk">the official repository</a> at GitHub.</p></div>
+        <h2>Extensions</h2>
+        <div class="box"><h3>Don't Doxx Yourself</h3>
+            <p>
+                It's easy to mess up when streaming, presenting or showing code.
+                Lower the risk by hiding your configuration values until you actually decide to show them.
+            </p>
+            <p>
+                This extension hides all values in xml and json files.
+                You can click a button to toggle the boxes so you can edit the values,
+                but if you close & reopen the file the values are hidden again.
+            </p>
+            <p>The schema is always visible even when the values are hidden.</p>
+            <img src="/layout/img/contributions/noDoxx.png" alt="Example showing what Don't Doxx Yourself looks like" title="Example showing what Don't Doxx Yourself looks like">
+            <p><a href="https://marketplace.visualstudio.com/items?itemName=Thindal.NoDoxx">Get NoDoxx at the Visual Studio Marketplace</a>
+                or <a href="https://github.com/thindaltv/nodoxx">contribute to the project</a> on GitHub.
+            </p></div>
+        <h2>Conference Sessions and Talks</h2>
+        <div class="box"><h3>The road taken; from Framework to .NETx</h3>
+            <p>
+                Do you have a .NET Framework project out there that's really looking to be updated to dotnet?
+                Have a look at the path we chose when upgrading a production web shop running on WebForms with
+                every imaginable anti pattern, into a modern framework with a MVC public site and a Blazor administration interface.
+                On this trip we will go through subjects like analysis, planning, architecture, some best practices and what will you
+                need to do to move it from on premise or Infrastructure As A Service to a fully managed Platform hosted solution.
+            </p>
+            <p><a href="https://github.com/ThindalTV/RoadTaken_FrameworkToNet_Demo/blob/main/presentation/Slides.pdf">Find the slides</a>
+                and the <a href="https://github.com/ThindalTV/RoadTaken_FrameworkToNet_Demo/tree/main/src">Demo application</a> on GitHub.
+            </p></div>
+
+        <div class="box"><h3>From Chaos to Order - Using the Repository Pattern the Right Way</h3>
+            <p>
+                If you've ever struggled with your data access being a mess, hard to follow, and even harder to test,
+                perhaps using the tried and true Repository pattern might be the right choice for you!
+            </p>
+            <p>
+                In this beginner-friendly and code heavy session, we will break down the principles behind the repository
+                pattern and how combining it with other patterns like Unit Of Work will make sure that you keep our data consistent, robust and testable.
+            </p>
+            <p>
+                In the end, we will dive into some code examples and have a working, basic implementation of a repository
+                with the necessary plumbing for your next application.
+            </p>
+            <p><a href="https://github.com/ThindalTV/Sessions-Chaos_To_Order_Repositories/blob/main/presentation/Slides.pdf">Find the slides</a>
+                and the <a href="https://github.com/ThindalTV/Sessions-Chaos_To_Order_Repositories/tree/main/src">Demo application</a> on GitHub.
+            </p></div>
+        <div class="box"><h3>Turning the Dynamic Static</h3>
+            <p>
+                While it's easy to host dynamic websites with different SPA frameworks and Azure Function calls,
+                a static HTML website will often come out ahead when it comes to loading speed and SEO since they are
+                smaller and do not require any backend calls.
+            </p>
+            <p>
+                By using open-source tools and Blazor with the right render mode, you can build a dynamic website hosted
+                on your development computer or homelab server. Once the site is built, it can be exported to pure HTML,
+                removing the need for dynamic server calls, making the website lightweight and SEO-friendly.
+                This combination of Blazor and static HTML provides the best of both worlds: dynamic content during development and fast,
+                static pages for the end-user.<br>
+                And even keep some dynamic content too!
+            </p>
+            <p>
+                This is how I constructed my personal website supporting daily updates and dynamic content, using minimal dynamic logic.
+            </p></div>
+        <h2>Other projects</h2>
+        <div class="box"><h3>Dotnet Bacon</h3>
+            <p>
+                Do you like bacon and/or eggs? If that feels like you, then you might like this project.
+            </p>
+            <p>Learn how to build a .NET tool, how to execute LUA code and how to write a source generator in the tastiest way possible. With bacon!</p>
+            <p>
+                To use the tool yourself, you can install it from the terminal with
+                <code>dotnet tool install -g dotnet-bacon</code></p>
+            <p>
+                Follow up with running the tool with either <code>dotnet bacon</code> or for some extra tasty,
+                use <code>dotnet bacon egg</code>.
+            </p>
+            <p>
+                If it's not obvious, this is a gag project for testing some technology, but it is published and fully working,
+                and you can find the <a href="https://github.com/ThindalTV/Dotnet.Bacon">source for dotnet bacon</a> on GitHub.
+            </p></div>
+        <div class="box"><h3>Swetugg</h3>
+            <p>
+                Swetugg is a conference for .NET developers, by .NET developers. Held twice per year, once in Stockholm
+                and once in Gothenburg, it reaches hundreds of developers in the Nordics and beyond.
+            </p>
+            <p>
+                For Swetugg, I am a part of the groups responsible for selecting speakers &amp; scheduling, the website and the afterparty.
+            </p>
+            <p><a href="https://www.swetugg.se">Read more, book your tickets and take part</a> of two wonderful days in one (or both!) of Swedens largest cities
+                filled to the brim with knowledge, facts, fun and networking. And there's food, entertainment and other silly things too!
+            </p></div></aside></footer>
+    <br b-j6uqp29po2>
+    </div>
+        
+    <script src="_framework/blazor.web.js"></script></body></html><!--Blazor-Server-Component-State:CfDJ8ALMZ4c1B1ZHjr/8y9RRr/cMAGspDY8uMfR/Ui1zPWYThurXKssv0Ai64Ar8WyKtKxUZ8vsDxEHEBFrLeKDTTh76JUNkZ/WSPSQAviKBqZxKX9x4a4L2yV+jSFuNEiR0uTSj2IZPMl/wk5B09xxbOIAlGdlMBYCVRrB62eTLG8fmxikE9RVV82b+I63wN1kxmO0PVTAGe7/T9YFQWZz+bAOAR77YzKwWkBZx2lsJdJ/lqh/uvq2sYeTe6Kk/6C23xUYMBjvU6Hjz6yHGNHYh1YuHfgTV/UjteEgU0huGV/r9/Bfdq7DG7XRvk4AM7JiJ0ty+itcocJJo+mnUr9u6S7ov2LI0vI1iBVxQBuUMcpzkQOKGlXXNY/41BgaqSe6Weh2ViNiy+13tg3tfX75QOPsLGVm3oA5HVXzRCnzI8PkgbUuHrkKqoA11EtZMy6plL8TSIfJaowfNADoTavyU8Rwd6UFUPcCJhs7fHiUBKTMCpalELaFgMOzS2KwnS8RKTT5J2gWf7veIY9AavGg4MZsCzmUcC/FnaGOetRLXr1xc--><!--Blazor-WebAssembly-Component-State:eyJfX2ludGVybmFsX19BbnRpZm9yZ2VyeVJlcXVlc3RUb2tlbiI6ImV5SjJZV3gxWlNJNklrTm1SRW80UVV4TldqUmpNVUl4V2tocWNsODRlVGxTVW5KZlpITktOekYwYTNaNWVGSlVhVGRETVcxMGVUTlphblZJV0Y5SE9DMDFTRmt3UWtZME9VRXlVVkZRVmpVeFUxQndVamR3ZEcxQllWVmxVelJ4TVZORVVHbGplbmxKYmtwWWFDMDVlRXN4VEU1dFpqbHplV0ZqU2pONU9UaFFUMmxwVm5CTVdqRnBhRlJyTlc1d1UycFhZMHMwWTFWSmRUWm1jekJGUVVOVVNubE5JaXdpWm05eWJVWnBaV3hrVG1GdFpTSTZJbDlmVW1WeGRXVnpkRlpsY21sbWFXTmhkR2x2YmxSdmEyVnVJbjA9In0=-->

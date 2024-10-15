@@ -176,7 +176,7 @@ div#blogNavigation {
         #showcase section.image {
             max-height: contain;
             aspect-ratio: 1 / 1;
-            background-image: url('/layout/img/Profile.png');
+            background-image: url('/img/Profile.png');
             background-size: cover;
             padding: 0;
         }
@@ -402,7 +402,7 @@ code {
     .image {
         max-height: contain;
         aspect-ratio: 1 / 1;
-        background-image: url('/layout/img/Profile.png');
+        background-image: url('/img/Profile.png');
         background-size: cover;
     }
 
